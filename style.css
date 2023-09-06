@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(148, 26, 21);
+}
+Body{
+    background: rgb(202, 132, 130);
+}
+footer{
+    background: grey;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
