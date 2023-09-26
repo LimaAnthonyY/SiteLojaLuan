@@ -15,7 +15,9 @@
 	background-color: rgb(0, 97, 243);
     width: auto;
     height: 130px;
+    text-align: center;
 }
+
 .b{
     height: 112px;
     width: 112px;
