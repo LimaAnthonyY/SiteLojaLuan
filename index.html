@@ -8,7 +8,8 @@
 
 </head>
 <body>
-    <ion-header-bar class="bar-positive" style="background-color: blue;">
+    <!-- 
+    <ion-header-bar class="bar-positive">
         <table>
             <tr>
                 <td><img src="luan_logo.png" class="b"> </td>
@@ -18,10 +19,17 @@
             </tr> 
         </table>
 	</ion-header-bar>
+    -->
 
-    </header>
+    <ion-header-bar class="bar-positive">
+		<h1 class="content" style="text-align: center;"> <img src="luan_logo.png" align="left" class="b">Elastic header</h1>
+	</ion-header-bar>
 
-    <footer>rodapé</footer>
+	<ion-content delegate-handle="example-scroller" elastic-header="example-elastic-header" overflow-scroll="false">
+	<div id="example-elastic-header" class="backgroundPAG"></div>
+		
+	<div class="content">
+	<div class="padding">
 
 </body>
 </html>

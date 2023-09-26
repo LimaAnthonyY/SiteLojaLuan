@@ -10,10 +10,10 @@ angular.module('example', ['ionic'])
 			var translateAmt, scaleAmt, scrollTop, lastScrollTop;
 			var ticking = false;
 			
-			// Set transform origin to top:
+			// Definir a origem da transformação para o topo:
 			header.style[ionic.CSS.TRANSFORM + 'Origin'] = 'center bottom';
 			
-			// Update header height on resize:
+			// Atualizar a altura do cabeçalho no redimensionamento:
 			window.addEventListener('resize', function() {
 				headerHeight = header.clientHeight;
 			}, false);
@@ -32,16 +32,16 @@ angular.module('example', ['ionic'])
 				scrollTop = scrollerHandle.getScrollPosition().top;
 			
 				if (scrollTop >= 0) {
-					// Scrolling up. Header should shrink:
+					// Deslocar para cima. O cabeçalho deve diminuir:
 					translateAmt = scrollTop / 2;
 					scaleAmt = 1;
 				} else {
-					// Scrolling down. Header should expand:
+					// Deslocação para baixo. O cabeçalho deve expandir-se:
 					translateAmt = 0;
 					scaleAmt = -scrollTop / headerHeight + 1;
 				}
 
-				// Update header with new position/size:
+				// Atualizar o cabeçalho com a nova posição/tamanho:
 				header.style[ionic.CSS.TRANSFORM] = 'translate3d(0,'+translateAmt+'px,0) scale('+scaleAmt+','+scaleAmt+')';
 				
 				ticking = false;
