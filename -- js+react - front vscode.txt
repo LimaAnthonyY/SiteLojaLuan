@@ -1,0 +1,19 @@
+criar projeto no github
+-task e talz 
+
+-- js+react - front vscode
+-- java ou python -- backend
+
+-- estoque de produtos, cadastro de usuário ( nome, endereço, numero, produto).
+-- banco de dados -- oracle sql, no sql
+-- hospedagem do site -- heroku e vercel e o proprio git qualquer coisa
+
+https://www.celsite.com.br/acessorios-para-celulares/
+
+https://www.futurosmart.com/
+
+https://itechbr.com/
+
+
+
+https://codepen.io/olach/pen/NqrYQL
